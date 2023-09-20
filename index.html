@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link href="static/css/one-page-scroll.css" rel="stylesheet" type="text/css" />
+        <link href="https://synertics.io/staticfiles/css/syn_general.css" rel="stylesheet" type="text/css" />
+        <link href="https://synertics.io/staticfiles/css/syn_landing.css" rel="stylesheet" type="text/css" />
+        <link href="https://synertics.io/staticfiles/css/syn_navbar.css" rel="stylesheet" type="text/css" />
+        <link href="https://synertics.io/staticfiles/css/syn_company.css" rel="stylesheet" type="text/css" />
+
+        <script src="static/js/jquery-3.7.1.min.js"></script>
+        <script src="static/js/one-page-scroll.js"></script>
+
+        <style>
+            .syn_navbar_item{
+                cursor:pointer;
+                user-select: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="syn_navbar" id="syn_navbar">
+            <div class="syn_navbar_logo_container">
+                <a href="" class=""><img src="data:image/png;base64,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" class="syn_navbar_logo_image" id="syn_navbar_logo_image" alt="synertics logo" ></a>
+            </div>
+
+            <div class="syn_navbar_middle_menu">
+                <div class="syn_navbar_item"><a>What is it?</a></div>
+                <div class="syn_navbar_item"><a>How to install?</a></div>
+                <div class="syn_navbar_item"><a>Basic usage</a></div>
+                <div class="syn_navbar_item"><a>Documentation</a></div>
+            </div>
+        </div>
+        <section class="syn_section">
+            <h1 class="syn_section_landing_title">What is it?</h1>
+        </section>
+
+        <section class="syn_section">
+            <h1 class="syn_section_landing_title">How to install?</h1>
+        </section>
+
+        <section class="syn_section">
+            <h1 class="syn_section_landing_title">Basic usage?</h1>
+        </section>
+
+        <section class="syn_section">
+            <h1 class="syn_section_landing_title">Documentation?</h1>
+        </section>
+    </body>
+    <script>
+        var ops = OnePageScroll();
+
+        document.querySelectorAll(".syn_navbar_item")[0].addEventListener("click", ()=>ops.navigate_to(1))
+        document.querySelectorAll(".syn_navbar_item")[1].addEventListener("click", ()=>ops.navigate_to(2))
+        document.querySelectorAll(".syn_navbar_item")[2].addEventListener("click", ()=>ops.navigate_to(3))
+        document.querySelectorAll(".syn_navbar_item")[3].addEventListener("click", ()=>ops.navigate_to(4))
+    </script>
+</html>
